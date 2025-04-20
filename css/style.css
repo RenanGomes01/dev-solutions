@@ -995,11 +995,3 @@ body.light-theme {
     --gray-color: #64748b;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
-@media (max-width: 768px) {
-  .scroll-indicator {
-    bottom: 10px; /* sobe um pouco para não sobrepor botões */
-    transform: scale(0.8) translateX(-50%); /* menor e mais discreto */
-    z-index: 0; /* garante que fique atrás de botões se necessário */
-  }
-}
