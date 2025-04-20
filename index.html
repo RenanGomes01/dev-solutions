@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Profissional | Desenvolvedor de Sistemas</title>
+    <meta name="description" content="Desenvolvedor de sistemas especializado em sistemas de vendas, controle de estoque, páginas web e aplicativos. Soluções personalizadas para sua empresa.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <meta name="description" content="Desenvolvedor de sistemas especializado em sistemas de vendas, controle de estoque, páginas web e aplicativos">
 </head>
 <body>
     <div class="cursor-follower"></div>
@@ -23,7 +23,7 @@
                     <li><a href="#projetos" class="nav-link">Projetos</a></li>
                     <li><a href="#contato" class="nav-link">Contato</a></li>
                 </ul>
-                <div class="menu-toggle">
+                <div class="menu-toggle" aria-label="Menu mobile" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -118,7 +118,7 @@ function <span class="highlight">criarSolucao</span>() {
                     <h3>Desenvolvimento Front-end</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="HTML">
-                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <div class="skill-icon"><i class="fab fa-html5" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>HTML</h4>
                                 <div class="skill-bar">
@@ -127,7 +127,7 @@ function <span class="highlight">criarSolucao</span>() {
                             </div>
                         </div>
                         <div class="skill-item" data-skill="CSS">
-                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <div class="skill-icon"><i class="fab fa-css3-alt" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>CSS</h4>
                                 <div class="skill-bar">
@@ -136,7 +136,7 @@ function <span class="highlight">criarSolucao</span>() {
                             </div>
                         </div>
                         <div class="skill-item" data-skill="JavaScript">
-                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <div class="skill-icon"><i class="fab fa-js" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>JavaScript</h4>
                                 <div class="skill-bar">
@@ -150,7 +150,7 @@ function <span class="highlight">criarSolucao</span>() {
                     <h3>Banco de Dados</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="SQL">
-                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div class="skill-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>SQL</h4>
                                 <div class="skill-bar">
@@ -159,7 +159,7 @@ function <span class="highlight">criarSolucao</span>() {
                             </div>
                         </div>
                         <div class="skill-item" data-skill="Modelagem">
-                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <div class="skill-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>Modelagem de Dados</h4>
                                 <div class="skill-bar">
@@ -173,7 +173,7 @@ function <span class="highlight">criarSolucao</span>() {
                     <h3>Sistemas</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="Vendas">
-                            <div class="skill-icon"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="skill-icon"><i class="fas fa-shopping-cart" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>Sistemas de Vendas</h4>
                                 <div class="skill-bar">
@@ -182,7 +182,7 @@ function <span class="highlight">criarSolucao</span>() {
                             </div>
                         </div>
                         <div class="skill-item" data-skill="Estoque">
-                            <div class="skill-icon"><i class="fas fa-boxes"></i></div>
+                            <div class="skill-icon"><i class="fas fa-boxes" aria-hidden="true"></i></div>
                             <div class="skill-info">
                                 <h4>Controle de Estoque</h4>
                                 <div class="skill-bar">
@@ -201,15 +201,15 @@ function <span class="highlight">criarSolucao</span>() {
             <h2>Meus <span class="highlight">Projetos</span></h2>
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all" aria-label="Mostrar todos os projetos">Todos</button>
-                <button class="filter-btn" data-filter="web">Web</button>
-                <button class="filter-btn" data-filter="sistema">Sistemas</button>
-                <button class="filter-btn" data-filter="app">Aplicativos</button>
+                <button class="filter-btn" data-filter="web" aria-label="Filtrar projetos web">Web</button>
+                <button class="filter-btn" data-filter="sistema" aria-label="Filtrar sistemas">Sistemas</button>
+                <button class="filter-btn" data-filter="app" aria-label="Filtrar aplicativos">Aplicativos</button>
             </div>
             <div class="projects-grid">
                 <div class="project-card" data-category="sistema">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="project-info">
@@ -222,15 +222,15 @@ function <span class="highlight">criarSolucao</span>() {
                             <span>SQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> Ver Demo</a>
-                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="btn-small"><i class="fas fa-eye" aria-hidden="true"></i> Ver Demo</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github" aria-hidden="true"></i> Código</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card" data-category="sistema">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-boxes"></i>
+                            <i class="fas fa-boxes" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="project-info">
@@ -243,15 +243,15 @@ function <span class="highlight">criarSolucao</span>() {
                             <span>SQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> Ver Demo</a>
-                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="btn-small"><i class="fas fa-eye" aria-hidden="true"></i> Ver Demo</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github" aria-hidden="true"></i> Código</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card" data-category="web">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-globe"></i>
+                            <i class="fas fa-globe" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="project-info">
@@ -263,15 +263,15 @@ function <span class="highlight">criarSolucao</span>() {
                             <span>JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> Ver Demo</a>
-                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="btn-small"><i class="fas fa-eye" aria-hidden="true"></i> Ver Demo</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github" aria-hidden="true"></i> Código</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card" data-category="app">
                     <div class="project-image">
                         <div class="project-placeholder">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="project-info">
@@ -284,8 +284,8 @@ function <span class="highlight">criarSolucao</span>() {
                             <span>SQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> Ver Demo</a>
-                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="btn-small"><i class="fas fa-eye" aria-hidden="true"></i> Ver Demo</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github" aria-hidden="true"></i> Código</a>
                         </div>
                     </div>
                 </div>
@@ -301,31 +301,30 @@ function <span class="highlight">criarSolucao</span>() {
                     <p>Estou disponível para novos projetos e oportunidades. Entre em contato para conversarmos sobre como posso ajudar sua empresa com soluções digitais personalizadas.</p>
                     <div class="contact-methods">
                         <div class="contact-method">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
                             <span>dev.soluciona.ti@gmail.com</span>
                         </div>
                         <div class="contact-method">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
                             <span>(65) 99249-6313</span>
                         </div>
                         <div class="contact-method">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                             <span>Cuiabá, Mato Grosso</span>
                         </div>
                     </div>
                     <div class="social-links">
                         <a href="https://www.instagram.com/soluciona.dev/" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer"> 
-    <i class="fab fa-instagram"></i>
-</a>
-
-                        <a href="#" class="social-link" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social-link" title="GitHub">
-                            <i class="fab fa-github"></i>
+                        <a href="https://linkedin.com/in/seu-perfil" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social-link" title="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
+                        <a href="https://github.com/seu-perfil" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/5565992496313" class="social-link" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -333,19 +332,19 @@ function <span class="highlight">criarSolucao</span>() {
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Nome</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required aria-required="true">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" required aria-required="true">
                         </div>
                         <div class="form-group">
                             <label for="subject">Assunto</label>
-                            <input type="text" id="subject" name="subject" required>
+                            <input type="text" id="subject" name="subject" required aria-required="true">
                         </div>
                         <div class="form-group">
                             <label for="message">Mensagem</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
                         </div>
                         <button type="submit" class="btn primary">Enviar Mensagem</button>
                     </form>
