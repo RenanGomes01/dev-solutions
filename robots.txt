@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://renangomes01.github.io/dev-solutions/sitemap.xml
+
+# Crawl-delay (opcional - para ser respeitoso com o servidor)
+Crawl-delay: 1
+
+# Permitir acesso a todos os recursos importantes
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Desabilitar acesso a arquivos desnecessários (se existirem)
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /admin/
+Disallow: /private/
+
+# Permitir acesso a arquivos específicos importantes
+Allow: /index.html
+Allow: /sitemap.xml
+Allow: /robots.txt
