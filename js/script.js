@@ -168,21 +168,21 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Simulação de envio de formulário
+            // Permitir o envio normal do formulário para o FormSubmit
             const submitButton = contactForm.querySelector('button[type="submit"]');
             const originalText = submitButton.textContent;
             
             submitButton.disabled = true;
             submitButton.textContent = 'Enviando...';
             
+            // O formulário será enviado automaticamente pelo FormSubmit
+            // O usuário será redirecionado de volta para a página após o envio
+            
+            // Adicionar uma mensagem de confirmação temporária
             setTimeout(() => {
-                alert('Mensagem enviada com sucesso! Em breve entrarei em contato.');
-                contactForm.reset();
                 submitButton.disabled = false;
                 submitButton.textContent = originalText;
-            }, 1500);
+            }, 3000);
         });
     }
     
